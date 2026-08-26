@@ -1,0 +1,2 @@
+# Disclaimer
+This experimental product is provided for informational and academic research purposes and is **not intended for production use**. While derived from validated statistical frameworks, the inherent stochasticity of the climate system introduces uncertainty. This website and its affiliated entities expressly disclaim any liability for decisions or actions based on the reliance on this information. Furthermore, no responsibility is assumed for any consequential, special, or similar damages resulting from such reliance.

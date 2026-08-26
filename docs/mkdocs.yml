@@ -1,0 +1,49 @@
+site_name: HMEC Hawaii Wave Seasonal Outlook
+docs_dir: src
+repo_name: eXtended nonlinear Recharge Oscillator
+repo_url: https://github.com/HMEC-UH/xro-wave-model
+
+nav:
+  - XRO Wave Model: index.md
+  - Disclaimer: disclaimer.md
+  - References: references.md
+  - Forecasts 2026:
+    - June: 2026/june.md
+    - July: 2026/july.md
+
+
+theme:
+  name: material
+  logo: assets/images/white_64.png
+  favicon: assets/images/green_64.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: HMEC
+  features:
+    - navigation.tracking  # Updates URL bar dynamically as you scroll
+    - navigation.indexes   # Allows folder titles to be clickable pages
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details # Optional: for collapsible blocks
+  - pymdownx.superfences # Optional: for code blocks inside admonitions
+  - pymdownx.keys
+  - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+
+extra_css:
+  - stylesheets/alignments.css
+  - stylesheets/color_scheme.css
+
+
+plugins:
+  - search
+  - privacy:
+      links_attr_map:
+        target: _blank
+        rel: noopener noreferrer
