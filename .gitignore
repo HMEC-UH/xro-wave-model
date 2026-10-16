@@ -1,1 +1,4 @@
 site/
+
+# generated configuration file
+docs/mkdocs.generated.yml

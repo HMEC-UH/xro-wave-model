@@ -3,17 +3,6 @@ docs_dir: src
 repo_name: eXtended nonlinear Recharge Oscillator
 repo_url: https://github.com/HMEC-UH/xro-wave-model
 
-nav:
-  - XRO Wave Model: index.md
-  - Disclaimer: disclaimer.md
-  - References: references.md
-  - Forecasts 2026:
-    - June: 2026/june.md
-    - July: 2026/july.md
-    - August: 2026/august.md
-    - September: 2026/september.md
-
-
 theme:
   name: material
   logo: assets/images/white_64.png
